@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<web-app>
+	<display-name>Plant Collection</display-name>
+	<description>Plant Collection App</description>
+	<servlet>
+		<servlet-name>All Admins</servlet-name>
+		<servlet-class>AllAdminsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>All Admins</servlet-name>
+		<url-pattern>/admins</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>All Members</servlet-name>
+		<servlet-class>AllMembersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>All Members</servlet-name>
+		<url-pattern>/members</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>All Plants</servlet-name>
+		<servlet-class>AllPlantsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>All Plants</servlet-name>
+		<url-pattern>/plants</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>All Guests Comments</servlet-name>
+		<servlet-class>AllGuestsCommentsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>All Guests Comments</servlet-name>
+		<url-pattern>/guestscomments</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>All Members Comments</servlet-name>
+		<servlet-class>AllMembersCommentsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>All Members Comments</servlet-name>
+		<url-pattern>/memberscomments</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>SearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+</web-app>
