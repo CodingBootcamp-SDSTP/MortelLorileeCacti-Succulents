@@ -7,7 +7,7 @@ CREATE TABLE plants (
 	pid VARCHAR (10) PRIMARY KEY,
 	name VARCHAR (50) NOT NULL,
 	type VARCHAR (50) NOT NULL,
-	native VARCHAR (50) NOT NULL,
+	origin VARCHAR (50) NOT NULL,
 	category VARCHAR (50) NOT NULL,
 	scientificname VARCHAR (50) NOT NULL,
 	alsoknownas VARCHAR (50) NOT NULL,
@@ -16,29 +16,29 @@ CREATE TABLE plants (
 	image VARCHAR (50) NOT NULL
 );
 
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-001", "Christmas Cactus", "Cactus", "Brazil", "Indoor Type", "Schlumbergera Bridgesii", "Thanksgiving Cactus", "Red, Purple, Orange, Pink & Cream", "Through cuttings", ".\photos\christmascactus.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-002", "Easter Cactus", "Cactus", "Eastern Brazil", "Indoor Type", "Rhipsalidopsis Gaertnerii", "Whitsun Cactus", "Red, Orange, Peach, Lavander & Pink", "Through Re-Potting", ".\photos\eastercactus.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-003", "Desert Cactus", "Cactus", "Arizona", "Indoor Type", "Carnegia Gigantia", "Cacti of Arizona", "Deep Magenta, Cream-Colored Blossoms, Bright Yellow Prickly Pear & Pink Blooms", "Through Re-Potting", ".\photos\desertcactus.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
-VALUES ( "000-004", "Golden Barrel Cactus", "Cactus", "Brazil", "Outdoor Type", "Echinocactus Grusonii", "mother-in-law's Cushion", "Vertival Yello Ribs that Line its Edges", "Through seedlings & Re-Potting", ".\photos\goldenbarrelcactus.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
+VALUES ( "000-004", "Golden Barrel Cactus", "Cactus", "Brazil", "Outdoor Type", "Echinocactus Grusonii", "mother-in-law's Cushion", "Verticsal Yellow Ribs that Line its Edges", "Through seedlings & Re-Potting", ".\photos\goldenbarrelcactus.jpg" );
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-005", "Columnar Cactus", "Cactus", "Eastern Brazil", "Outdoor Type", "Cereus hexagonus", "Slender Candle", "Exotic Blue Skin Color & Green", "Through Cuttings", ".\photos\columnarcactus.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-006", "Prickly Pear Cactus", "Cactus", "Arizona", "Outdoor Type", "Opuntia streptacantha", "Tuna Fruit", "Yellow, Red & Purple Blooms", "Through Cuttings", ".\photos\pricklypearcactus.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-007", "Burro’s Tail", "Succulents", "South Mexico", "Indoor Type", "Sedum Morganianum", "Donkey Tail Plant", "Blue-Green Leaves and Terminal Pink to Red Blooms", "Through Cuttings", ".\photos\burrostail.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-008", "Crown of Thorns", "Succulents", "Latin America", "Indoor Type", "Euphorbia Milii", "Christ thorn", "Red Bracts, Pink, Yellow or Whitish Varieties", "Through Cuttings", ".\photos\crownofthorns.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-009", "Flaming Katy", "Succulents", "Madagascar", "Indoor Type", "Kalanchoe Blossfeldiana", "Christmas kalanchoe", "Red, Yellow, Lilac & Orange", "Through Seedlings", ".\photos\flamingkaty.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-010", "Hens-and-Chicks", "Succulents", "Southern Europe and Northern Africa", "Outdoor Type", "Sempervivum Tectorum", "Houseleeks", "Bright Green & Maroon", "Through Seedlings", ".\photos\hensandchicks.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-011", "Pig’s Ear", "Succulents", "Pennsylvania", "Outdoor Type", "Cotyledon Orbiculata", "Pig’s Ear", "Red & Orange Blooms", "Through Cuttings", ".\photos\pigsear.jpg" );
-INSERT INTO plants ( pid, name, type, native, category, scientificname, alsoknownas, colors, howtogrow, image )
+INSERT INTO plants ( pid, name, type, origin, category, scientificname, alsoknownas, colors, howtogrow, image )
 VALUES ( "000-012", "Zwartkop", "Succulents", "Canary Islands", "Outdoor Type", "Aeonium Arboreum", "Black Beauty", "Deep Marron", "Through Cuttings", ".\photos\zwartkop.jpg" );
 
 CREATE TABLE members (
@@ -84,3 +84,5 @@ CREATE TABLE admins (
 );
 
 INSERT INTO admins ( username, password ) VALUES ( "lorileemortel", "AlexMort3l90)" );
+INSERT INTO admins ( username, password ) VALUES ( "alexmortel", "YllonaPizarra90)" );
+INSERT INTO admins ( username, password ) VALUES ( "catalinamortel", "IsaiahCunanan90)" );
