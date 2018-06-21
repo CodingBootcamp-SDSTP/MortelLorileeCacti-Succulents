@@ -11,6 +11,19 @@ public class Plant
 	private String howtogrow;
 	private String image;
 
+	public Plant(String pid, String n, String t, String o, String c, String sn, String aka, String co, String hg, String i) {
+		pid = pid;
+		name = n;
+		type = t;
+		origin = o;
+		category = c;
+		scientificname = sn;
+		alsoknownas = aka;
+		color = co;
+		howtogrow = hg;
+		image = i;
+	}
+
 	public void setPid(String pids) {
 		pid = pids;
 	}
