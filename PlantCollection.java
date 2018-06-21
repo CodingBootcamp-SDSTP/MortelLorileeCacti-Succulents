@@ -47,8 +47,7 @@ public class PlantCollection
 		String type = a.getType().toLowerCase();
 		String origin = a.getOrigin().toLowerCase();
 		String category = a.getCategory().toLowerCase();
-		String color = a.getColor().toLowerCase();
-		if(name.contains(text) || type.contains(text) || origin.contains(text) || category.contains(text) || color.contains(text)) {
+		if(name.contains(text) || type.contains(text) || origin.contains(text) || category.contains(text)) {
 			return(true);
 		}
 		return(false);
